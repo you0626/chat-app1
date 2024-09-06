@@ -1,0 +1,15 @@
+  <div class="message">
+    <div class="upper_massage">
+      <div class="main_name">
+        <%= message.user.name %>
+      </div>
+      <div class="main_time">
+        <%= l message.created_at %>
+      </div>
+    </div>
+    <div class="lower_massage">
+      <div class="main_message">
+        <%= message.content %>
+      </div>
+    </div>
+  </div>
